@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Participants</title>
+	<style type="text/css">
+        @import url("Participants.css")
+    </style>
+	<link href="https://fonts.googleapis.com/css?family=Anton|Cinzel|Fascinate+Inline" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|EB+Garamond|Playfair+Display" rel="stylesheet">
+</head>
+<body>
+	
+		<div id = "titlecat">
+			<h1><a href="../About/About.html">World War II</a></h1>
+			<center>
+				<table cellspacing="0" cellpadding="15" border="2" style="background-color: #CFD8DC" >
+					<tr>
+                        <td><a href="../About/About.html">About</a></td>
+						<td><a href="../preevent/preevents.html">Pre Events</a></td>
+                        <td><a href="../Participants/Participants.html"><span id="opend">Participants</span></a></td>
+						<td><a href="../Battels/btls.html">Battles</a></td>
+						<td><a href="../aftermathandimpact/aftermathimp.html">After math &amp; impact</a></td>
+						<td><a href="../POPCalture/pop.html">POP Calture</a></td>
+					</tr>
+				</table>
+			</center>
+		</div>
+        
+<div id="mainimg">
+        		<center>
+                    <img class="slideshow" src="slider1.jpg" width="900" height="500">
+                    <img class="slideshow" src="slider2.jpg" width="900" height="500">
+                    <img class="slideshow" src="slider3.jpg" width="900" height="500">
+                    <img class="slideshow" src="slider4.jpg" width="900" height="500">
+                    <img class="slideshow" src="slider5.jpg" width="900" height="500">
+		</center>
+        </div>
+    
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slideshow");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+    </script>
+        <div id="tb">
+		<table width="95%" border="2" cellpadding="20" cellspacing="0" align="center" style="background-color: #CFD8DC">
+			<tr>
+				<td width="50%">
+					<h2 class="allies">The ALLIES</h2>
+					<ul class="txt">
+						<li>France <img src="france_flag.png" width="40" height="22"></li>
+						<li>Great Britain <img src="great_britain_flag.png" width="40" height="22"></li>
+						<li>The United States <img src="the_united_states_flag.jpg" width="40" height="22"></li>
+						<li>The Soviet Union <img src="the_Soviet_Union_flag.png" width="40" height="22"></li>
+						<li>China <img src="the_Republic_of_China_flag.png" width="40" height="22"></li>
+					</ul>
+				</td>
+				<td>
+					<h2 class="axis">The AXIS</h2>
+					<ul class="txt">
+						<li>Germany <img src="the_German_flag.png" width="40" height="22"></li>
+						<li>Italy <img src="Italy_flag.png" width="40" height="22"></li>
+						<li>Japan <img src="japan_flag.jpg" width="40" height="22"></li>
+						<br>
+						<br>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" colspan="2">
+					<center><h1 id="imp">Leaders &amp; Important Characters</h1></center>
+				</td>
+			</tr>
+			<tr>
+				<!-- The ALLIES -->
+				<td align="center" class="txt2">
+					<img src="Winston Churchill.jpg" class="cimg" width="200" height="200" alt="Winston Churchill">
+					<div id = "00" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img0">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Winston Churchill <img src="great_britain_flag.png" width="40" height="22"><br>
+						1874 - 1965<br>
+						Prime Minister of Great Britain during most of the war.
+					</p>
+					<img src="josephstalin.jpg" class="cimg" width="200" height="200" alt="Joseph Stalin">
+					<div id = "01" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img1">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Joseph Stalin <img src="the_Soviet_Union_flag.png" width="40" height="22"><br>
+						1878 - 1953<br>
+						General Secretary of the Central Committee of the Communist Party of the Soviet Union.
+					</p>
+					<img src="Harry S. Truman.jpg" class="cimg" width="200" height="200" alt="Harry S. Truman">
+					<div id = "02" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img2">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Harry S. Truman <img src="the_united_states_flag.jpg" width="40" height="22"><br>
+						1884 - 1974<br>
+						The 33rd President of the United States (1945–1953).
+					</p>
+					<img src="Dwight D. Eisenhower.jpg" class="cimg" width="200" height="200" alt="Dwight D. Eisenhower">
+					<div id = "03" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img3">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Dwight D. Eisenhower <img src="the_united_states_flag.jpg" width="40" height="22"><br>
+						1890 - 1969
+						The 34th President of the United States from 1953 to 1961.
+					</p>
+					<img src="Douglas MacArthur.jpg" class="cimg" width="200" height="200" alt="Douglas MacArthur">
+					<div id = "04" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img4">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Douglas MacArthur <img src="the_united_states_flag.jpg" width="40" height="22"><br>
+						1880 - 1964<br>
+						He was recalled to active duty in 1941 as commander of United States Army Forces in the Far East.
+					</p>
+					<img src="George S. Patton.jpg" class="cimg" width="200" height="200" alt="George S. Patton">
+					<div id = "05" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img5">
+						<div class="caption"></div>
+					</div>
+					<p>
+						George S. Patton <img src="the_united_states_flag.jpg" width="40" height="22"><br>
+						1885 - 1945<br>
+						He was a senior officer of the United States Army.
+					</p>
+					<img src="Charles de Gaulle.jpg" class="cimg" width="200" height="200" alt="Charles De Gaulle">
+					<div id = "06" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img6">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Charles de Gaulle <img src="france_flag.png" width="40" height="22"><br>
+						1890 - 1970<br>
+						He was the leader of Free France (1940–1944).
+					</p>
+					<img src="Bernard Montgomery.jpg" class="cimg" width="200" height="200" alt="Bernard Montgomery">
+					<div id = "07" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img7">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Bernard Montgomery <img src="great_britain_flag.png" width="40" height="22"><br>
+						1887 - 1976
+						He was a senior British Army officer who fought in both the First World War and the Second World War.
+					</p>
+					<img src="Chiang Kai-shek.jpg" class="cimg" width="200" height="200" alt="Chiang Kai-Shek">
+					<div id = "08" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img8">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Chiang Kai-shek <img src="the_Republic_of_China_flag.png" width="40" height="22"><br>
+						1887 - 1975<br>
+						He was a political and military leader who served as the leader of the Republic of China between 1928 and 1975.
+					</p>
+					<img src="Chester W. Nimitz.jpg" class="cimg" width="200" height="200" alt="Chester w. Nimitz">
+					<div id = "09" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img9">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Chester W. Nimitz <img src="the_united_states_flag.jpg" width="40" height="22"><br>
+						1885 - 1966<br>
+						He was a fleet admiral of the United States Navy.
+					</p>
+					<img src="Georgy Zhukov.jpg" class="cimg" width="200" height="200" alt="Georgy Zhukov">
+					<div id = "010" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img10">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Georgy Zhukov <img src="the_Soviet_Union_flag.png" width="40" height="22"><br>
+						1897 - 1974<br>
+						He was a Soviet Red Army officer who became Chief of General Staff.
+					</p>
+				</td>
+
+				<!-- The AXIS -->
+				<td align="center" class="txt2">
+					
+					<img src="Adolf Hitler.jpg" class="cimg" width="200" height="200" alt="Adolf Hitler">
+					<div id = "011" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img11">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Adolf Hitler <img src="the_German_flag.png" width="40" height="22"><br>
+						1889 - 1945<br>
+						The leader of Nazi Germany
+					</p> 
+					<img src="Benito_Mussolini.jpg" class="cimg" width="200" height="200" alt="Benito Mussolini">
+					<div id = "012" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img12">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Benito Mussolini <img src="Italy_flag.png" width="40" height="22"><br>
+						1883 - 1945<br>
+						He ruled Italy as Prime Minister from 1922 to 1943.
+					</p>
+					<img src="Hirohito.jpg" class="cimg" width="200" height="200" alt="Hirohito">
+					<div id = "013" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img13">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Hirohito <img src="japan_flag.jpg" width="40" height="22"><br>
+						1901 - 1989<br>
+						The 124th Emperor of Japan according to the traditional order of succession.
+					</p>
+					<img src="Hideki Tojo.jpg" class="cimg" width="200" height="200" alt="Hideki Tojo">
+					<div id = "014" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img14">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Hideki Tojo <img src="japan_flag.jpg" width="40" height="22"><br>
+						1884 - 1948<br>
+						The 27th Prime Minister of Japan during much of World War II.
+					</p>
+					<img src="Victor Emmanuel III.jpg" class="cimg" width="200" height="200" alt="Victor Emmanuel">
+					<div id = "015" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img15">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Victor Emmanuel III <img src="Italy_flag.png" width="40" height="22"><br>
+						1869 - 1947<br>
+						He was the King of Italy from 29 July 1900 until his abdication on 9 May 1946.
+					</p>		
+					<img src="Boris III of Bulgaria.jpg" class="cimg" width="200" height="200" alt="Boris III Of Bulgaria">
+					<div id = "016" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img16">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Boris III of Bulgaria <img src="Flag_of_Bulgaria.png" width="40" height="22"><br>
+						1894 - 1983<br>
+						He was the Tsar from 1918 until his death in 1943. 
+					</p>
+					<img src="Stoyan Stoyanov.jpg" class="cimg" width="200" height="200" alt="Stoyan Stoyanov">	
+					<div id = "017" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img17">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Stoyan Stoyanov <img src="Flag_of_Bulgaria.png" width="40" height="22"><br>
+						1913 - 1997<br>
+						He was the highest scoring Bulgarian fighter ace of the Royal Bulgarian Air Force with 14 victories.
+					</p>
+					<img src="Bogdan Filov.jpg" class="cimg" width="200" height="200" alt="Bogdan Filov">
+					<div id = "018" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img18">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Bogdan Filov <img src="Flag_of_Bulgaria.png" width="40" height="22"><br>
+						1883 - 1945<br>
+						He was Prime Minister of Bulgaria during World War II.
+					</p>
+					<img src="Hermann Göring.jpg" class="cimg" width="200" height="200" alt="Hermann Göring">
+					<div id = "019" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img19">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Hermann Göring <img src="the_German_flag.png" width="40" height="22"><br>
+						1893 - 1946<br>
+						He was one of the most powerful figures in the Nazi Party that ruled Germany from 1933 to 1945.
+					</p>
+					<img src="Heinrich Himmler.jpg" class="cimg" width="200" height="200" alt="Heinrich Himmler">
+					<div id = "020" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img20">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Heinrich Himmler <img src="the_German_flag.png" width="40" height="22"><br>
+						1900 - 1945<br>
+						He was Reichsführer of the Schutzstaffel and a leading member of the Nazi Party of Germany. 
+					</p>
+					<img src="Fumimaro Konoe.jpg" class="cimg" width="200" height="200" alt="Fumimaro Konoe">
+					<div id = "021" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img21">
+						<div class="caption"></div>
+					</div>
+					<p>
+						Fumimaro Konoe <img src="japan_flag.jpg" width="40" height="22"><br>
+						1891 - 1945<br>
+						He was prime minister from 1937 to 1939 and 1940 until 1941
+					</p>
+				</td>
+			</tr>
+		</table>
+    </div>
+    <script type="text/javascript">
+    	// Get the modal
+    	var i = 0 ;
+    	while (i < 22) {
+    		var img = document.getElementsByClassName("cimg")[i];
+    		// Get the modal
+    		var modal = document.getElementById("0"+i);
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var modalImg = document.getElementById("img"+i);
+            var captionText = document.getElementsByClassName("caption")[i];
+
+            img.onclick = function(){
+            	modal.style.display = "block";
+            	modalImg.src = this.src;
+            	captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[i];
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+            	modal.style.display = "none";
+            }
+
+            i++;
+            }
+        </script>
+    <div id="signup_contact">
+        <hr>
+        <center><h2>To Get Notify When Any Further Information is Updated , You Can Sign Up
+            <br>
+            <a href="../Signup/signup.html"><span style="text-decoration: underline; font-size: 25pt">Here</span></a></h2></center>    
+    </div>
+</body>
+</html>

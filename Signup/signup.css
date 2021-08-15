@@ -1,0 +1,41 @@
+body { background-color: #F5F5F5 }
+
+#titlecat{ font-family: 'EB Garamond', serif; margin-bottom: 10px; font-size: 13pt }
+
+#main_vid{ background-color: #212121; margin-bottom: 10px; }
+
+h2 { font-family: Georgia, serif; }
+
+h1 { text-shadow: 5px 10px 10px grey ; font-size: 40pt; font-family: 'Cinzel', serif; text-align: center }
+p {font-family: Georgia, serif;}
+a{
+    font-family: 'Cinzel', serif; text-align: center;
+}
+
+a:link{
+    color: black;
+    text-decoration:none; 
+}
+a:visited{
+    color: black;
+    text-decoration:none; 
+}
+a:hover{
+    font-weight: bold;
+}
+a:active{
+    color: white;
+    font-weight: bold;
+}
+#opend{
+    font-weight: bold;
+    text-shadow: 5px 10px 10px grey ;
+}
+.req{
+    color: red;
+    font-weight: bold;
+}
+.opt{
+    color: green;
+    font-weight: bold;
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Anton|Cinzel|Fascinate+Inline" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|EB+Garamond|Playfair+Display" rel="stylesheet">
+	    <link rel="stylesheet" type="text/css" href="signup.css">
+    <title>Sign Up</title>
+
+    </head>
+    <body>
+        
+        <div id = "titlecat">
+			<h1><a href="../About/About.html">World War II</a></h1>
+			<center>
+				<table cellspacing="0" cellpadding="15" border="2" style="background-color: #CFD8DC" >
+					<tr>
+                        <td><a href="../About/About.html">About</a></td>
+						<td><a href="../preevent/preevents.html">Pre Events</a></td>
+                        <td><a href="../Participants/Participants.html">Participants</a></td>
+						<td><a href="../Battels/btls.html">Battles</a></td>
+						<td><a href="../aftermathandimpact/aftermathimp.html">After math &amp; impact</a></td>
+						<td><a href="../POPCalture/pop.html">POP Calture</a></td>
+					</tr>
+				</table>
+			</center>
+		</div>
+
+<h2>
+      Sign Up:
+    </h2>
+    <p>
+        Please Fill The Required Data    
+    </p>
+    <form action="" >
+      <fieldset>
+        <legend>Contact Details</legend>
+        <p>
+          <label for="surname">Surname</label> 
+          <input id="surname" name="surname" type="text"  placeholder="5 Characters At Least" required maxlength="12"  minlength="5" />
+          <span class="req">Required</span>
+        </p>
+          
+        <p>
+          <label for="password">Password</label> 
+          <input id="password" name="Password" type="password" required placeholder="8 Characters At Least"  maxlength="16" placeholder="Password" minlength="8" />
+          <span class="req">Required</span>
+        </p>
+
+        <p>
+          <label for="email">Email</label> 
+          <input id="email" name="email" type="email" required />
+          <span class="req">Required</span>
+        </p>
+          
+        <p>
+          <label for="telephone">Telephone</label> 
+          <input id="telephone" name="telephone" type="tel" maxlength="14"/>
+          <span class="opt">Optional</span>
+        </p>
+        <p>
+          <label for="website">Website</label> 
+          <input id="website" name="website" type="url" />
+          <span class="opt">Optional</span>
+        </p>
+        <p>
+          <input class="submit" type="submit" name="submit" value="Submit" />
+          <input type="reset" value="Clear" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>

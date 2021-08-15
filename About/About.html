@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Anton|Cinzel|Fascinate+Inline" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|EB+Garamond|Playfair+Display" rel="stylesheet">
+    <title>World War II</title>
+	<style type="text/css">
+        @import url("About.css")
+    </style>
+</head>
+
+	<body>
+		<div id = "titlecat">
+			<h1><a href="../About/About.html">World War II</a></h1>
+			<center>
+				<table cellspacing="0" cellpadding="15" border="2" style="background-color: #CFD8DC" >
+					<tr>
+                        <td><a href="About.html"><span id="opend">About</span></a></td>
+						<td><a href="../preevent/preevents.html">Pre Events</a></td>
+                        <td><a href="../Participants/Participants.html">Participants</a></td>
+						<td><a href="../Battels/btls.html">Battles</a></td>
+						<td><a href="../aftermathandimpact/aftermathimp.html">After math &amp; impact</a></td>
+						<td><a href="../POPCalture/pop.html">POP Calture</a></td>
+					</tr>
+				</table>
+			</center>
+		</div>
+
+		<div id="main_vid">
+			<center>
+				<iframe width="900" height="500" src="https://www.youtube.com/embed/Q78COTwT7nE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</center>
+		</div>
+
+		<div class="text">
+			<p class="topics">Background</p>
+			<pre>
+			    <img src="first img.jpg" align="right" width="400" height="220" id="first_img" class="cimg">
+			    <div id = "00" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img0">
+                        <div class="caption"></div>
+                </div>
+
+World War II, also called Second World War, conflict that
+involved virtually every part of the world during the years
+1939–45. The principal belligerents were the Axis powers—
+Germany, Italy, and Japan—and the Allies—France, Great 
+Britain,the United States, the Soviet Union, and, to a 
+lesser extent, China. The war was in many respects a 
+continuation, after anuneasy 20-year hiatus, of the disputes
+left unsettled by World War I.The 40,000,000–50,000,000
+deaths incurred in World War II make it the bloodiest 
+conflict, as well as the largest war, in history. Along with
+World War I, World War II was one of the great watersheds
+of 20th-century geopolitical history. It resulted in the 
+extension of the Soviet Union’s power to nations of eastern
+Europe, enabled a communist movement to eventually achieve 
+power in China, and marked the decisive shift of power in
+the world away from the states of western Europe and toward
+the United States and the Soviet Union.
+			    
+			</pre>
+			<img src="second img.jpg" align="right" width="200" height="300" id="second_img" class="cimg">
+			<div id = "01" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img1">
+                <div class="caption"></div>
+            </div>
+
+			<p class="topics">The Outbreak Of War</p>
+			<pre>
+By the early part of 1939 the German dictator Adolf Hitler had become determined to
+invade and occupy Poland. Poland, for its part, had guarantees of French and British
+military support should it be attacked by Germany. Hitler intended to invade Poland 
+anyway, but first he had to neutralize the possibility that the Soviet Union would 
+resist the invasion of its western neighbour. Secret negotiations led on August 23–24 
+to the signing of the German-Soviet Nonaggression Pact in Moscow. In a secret protocol
+of this pact, the Germans and the Soviets agreed that Poland should be divided between
+them, with the western third of the country going to Germany and the eastern two-thirds
+being taken over by the U.S.S.R. Having achieved this cynical agreement, the other 
+provisions of which stupefied Europe even without divulgence of the secret protocol, 
+Hitler thought that Germany could attack Poland with no danger of Soviet or British 
+intervention and gave orders for the invasion to start on August 26. News of the signing, 
+on August 25, of a formal treaty of mutual assistance between Great Britain and Poland
+(to supersede a previous though temporary agreement) caused him to postpone the start 
+of hostilities for a few days. He was still determined, however, to ignore the diplomatic 
+efforts of the western powers to restrain him. Finally, at 12:40 PM on August 31, 1939,
+Hitler ordered hostilities against Poland to start at 4:45 the next morning. The invasion
+began as ordered.<br><br>
+<span id="begin">In response, Great Britain and France declared war on Germany on September 3, at 11:00 AM and at 5:00 PM,
+respectively. World War II had begun.</span>
+			</pre>
+			
+		</div>
+        <div id="signup_contact">
+        <hr>
+        <center><h2>To Get Notify When Any Further Information is Updated , You Can Sign Up
+            <br>
+            <a href="../Signup/signup.html"><span style="text-decoration: underline; font-size: 25pt">Here</span></a></h2></center>    
+    </div>
+    <script type="text/javascript">
+    	// Get the modal
+    	var i = 0 ;
+    	while (i < 2) {
+    		var img = document.getElementsByClassName("cimg")[i];
+    		// Get the modal
+    		var modal = document.getElementById("0"+i);
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var modalImg = document.getElementById("img"+i);
+            var captionText = document.getElementsByClassName("caption")[i];
+
+            img.onclick = function(){
+            	modal.style.display = "block";
+            	modalImg.src = this.src;
+            	captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[i];
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+            	modal.style.display = "none";
+            }
+
+            i++;
+            }
+    </script>
+
+	</body>
+
+</html>

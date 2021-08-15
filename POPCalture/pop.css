@@ -1,0 +1,76 @@
+body {
+			background-color: #F5F5F5;
+}
+#popcalhead {
+    font-family: 'Cinzel', serif;
+    margin-bottom: 10px;
+}
+
+#titlecat{
+			font-family: 'EB Garamond', serif;
+			margin-bottom: 10px;
+
+		}
+#signup_contact{
+        font-family: 'Cinzel', serif;
+}
+#main_heading{
+			font-size: 40pt;
+			font-family: 'Cinzel', serif;
+			
+
+		}
+pre { font-family: Crete Round }
+.headers {
+    font-family: 'Cinzel', serif;
+    margin-bottom: 10px;
+}
+.artimgs{
+    width: 400px;
+    height: 400px;
+}
+.tvimgs{
+    width: 350px;
+    height: 400px;
+}
+.semiheaders{
+        font-family: 'Cinzel', serif;
+        margin-bottom: 10px;
+        margin-left: 15px
+
+}
+#mainimg{
+	    	background-color: #212121;
+	    	margin-bottom: 10px;
+	    }
+h1 { text-shadow: 5px 10px 10px grey ; font-size: 40pt; font-family: 'Cinzel', serif; text-align: center }
+
+
+a{
+    font-family: 'Cinzel', serif; text-align: center;
+}
+
+a:link{
+    color: black;
+    text-decoration:none; 
+}
+a:visited{
+    color: black;
+    text-decoration:none; 
+}
+a:hover{
+    font-weight: bold;
+}
+a:active{
+    color: white;
+    font-weight: bold;
+}
+#opend{
+    font-weight: bold;
+    text-shadow: 5px 10px 10px grey ;
+}
+.divs{
+    border : 3px solid #607D8B;
+    background-color: #CFD8DC;
+    border-radius: 18px;
+}

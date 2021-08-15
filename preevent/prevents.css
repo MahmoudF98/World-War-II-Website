@@ -1,0 +1,126 @@
+
+body {
+	color: #212121;
+	background-color: #F5F5F5;
+}
+.cimg{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.cimg:hover{opacity: 0.7;}
+#titlecat{ font-family: 'EB Garamond', serif; margin-bottom: 10px; font-size: 13pt }
+#mainimg{
+	    	background-color: #212121;
+	    	margin-bottom: 10px;
+	    }
+#main_heading{
+	font-size: 40pt;
+	font-family: 'Cinzel', serif;
+}
+    
+#signup_contact{
+        font-family: 'Cinzel', serif;
+}
+.titles { font-family: 'Cinzel', serif }
+
+pre { font-family: Crete Round; 
+	  font-size: 16px	}
+
+ol{font-family: 'Cinzel', serif;
+	background: #CFD8DC;
+    
+	 }
+
+li{font-family: Crete Round}
+
+.under_image {
+	font-family: Crete Round;
+	font-size: 13px;
+  }
+
+.topics{
+    border : 3px solid #607D8B;
+    background-color: #CFD8DC;
+    border-radius: 18px;
+}
+
+h1 { text-shadow: 5px 10px 10px grey ; font-size: 40pt; font-family: 'Cinzel', serif; text-align: center }
+
+a{
+    font-family: 'Cinzel', serif; text-align: center;
+}
+
+a:link{
+    color: black;
+    text-decoration:none; 
+}
+a:visited{
+    color: black;
+    text-decoration:none; 
+}
+a:hover{
+    font-weight: bold;
+}
+a:active{
+    color: white;
+    font-weight: bold;
+}
+.topics a{
+    color: blue;
+    text-decoration:underline; 
+}
+#opend{
+    font-weight: bold;
+    text-shadow: 5px 10px 10px grey ;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
